@@ -1101,7 +1101,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     top: 0;
     left: 0;
     height: 570px;
+    width: auto;
    }
+
+
+  @media (max-width: 991px){
+    .landing-page .section-presentation img{
+      position: relative;
+      top: 0;
+      left: 0;
+      height: auto;
+      width: 100%;
+    }
+  }
 
    .landing-page .section-presentation .iphone-presentation {
     position: relative;
@@ -1118,7 +1130,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
     height: 600px;
     text-align: center;
    }
- 
+
    .landing-page .section-no-padding .parallax .info{
     position: absolute;
     left: 50%;
