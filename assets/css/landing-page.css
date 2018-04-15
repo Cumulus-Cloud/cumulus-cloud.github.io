@@ -727,6 +727,7 @@ a:focus, a:active {
   line-height: 28px;
   font-size: 18px;
   font-weight: 200;
+  text-align: justify;
 }
 .landing-page .section-description h5 {
   margin-top: 40px;
@@ -1086,7 +1087,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
   }
    .landing-page .logos li{
     display: inline-block;
-    margin: 0 17px;
+    margin: 0 13px;
    }
 
    .landing-page .section-presentation {
@@ -1194,7 +1195,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#de8e0009', e
 
    .landing-page .section-features .card{
         width: 100%;
-        min-height: 390px;
+        min-height: 470px;
         padding: 10px 30px;
         border: 1px solid #DDDDDD;
         border-radius: 10px;
